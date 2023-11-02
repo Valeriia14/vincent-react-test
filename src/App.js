@@ -11,7 +11,7 @@ function Timer() {
   }, 1000);
 
   return () => clearTimeout(timer)
-  }, []);
+  }, [count]);
 
   return <h1>I've rendered {count} times!</h1>;
 }
